@@ -11,7 +11,14 @@
         @livewireStyles
     </head>
     <body>
+    <nav>
+        <a href="/counter">Coutner</a>
+        <a href="/todolist">Todolist - noUI</a>
+    </nav>
+    <main>
+
         {{ $slot }}
+    </main>
 
         @livewireScripts
     </body>
